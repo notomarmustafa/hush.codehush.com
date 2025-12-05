@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+
+<!--
+88888888    88888888    88888888       88888888      88    88    88    88   88888888    88    88
+88          88    88    88     88      88            88    88    88    88   88          88    88
+88          88    88    88      88     88            88    88    88    88   88          88    88
+88          88    88    88       88    88888888      88888888    88    88   88888888    88888888
+88          88    88    88      88     88            88    88    88    88         88    88    88
+88          88    88    88     88      88            88    88    88    88         88    88    88
+88888888    88888888    88888888       88888888      88    88    88888888   88888888    88    88
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide | Code Hush</title>
+    <link rel="stylesheet" href="assets/css/guide.css">
+    <link rel="icon" type="image/png" href="assets/logo/Favicon/code-hush-favicon-favicon-color.png"/>
+</head>
+
+<body>
+
+    <nav>
+      <div class="logo">
+        <a href="https://hush.codehush.com">Hush Bot</a>
+      </div>
+      <ul>
+          <li><a href="https://hush.codehush.com">Home</a></li>
+          <li><a href="https://hush.codehush.com/guide" style="border-bottom: 2px solid hsl(239, 69%, 51%);">Guide</a></li>
+          <li><a href="https://hush.codehush.com/privacypolicy">Privacy Policy</a></li>
+          <li><a href="https://hush.codehush.com/termsofservice">Terms of Service</a></li>
+          <li>
+            <a href="https://discord.com/oauth2/authorize?client_id=1231284260963483748&permissions=8&scope=bot%20applications.commands" class="invite-button">Invite</a>
+          </li>
+      </ul>
+    </nav>
+
+    <div class="pfp_container">
+        <div class="header">
+            <img src="assets/logo/Transparent/code-hush-favicon-high-resolution-logo-transparent.png" alt="features image" style="width: 10%; height: 10%; border-radius: 10px">
+            <h1 class="website-name">Guide</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <p style="text-align: center; font-size: 20px;">This is Hush's (bot) Feature list!<br>You can click on command names to show information!</p>
+
+        <div class="section">
+
+            <p>⠀</p>
+<h2>BASIC MODERATION</h2>
+
+<h3 class="title" data-section-id="ban">/ban [user]</h3>
+<div class="content" id="ban">
+    <p>Ban the chosen user.</p>
+</div>
+
+<h3 class="title" data-section-id="kick">/kick [user]</h3>
+<div class="content" id="kick">
+    <p>Kick the chosen user.</p>
+</div>
+
+<h3 class="title" data-section-id="lock">/lock</h3>
+<div class="content" id="lock">
+    <p>Locks the current channel, no more messages can be sent.</p>
+</div>
+
+<h3 class="title" data-section-id="unlock">/unlock</h3>
+<div class="content" id="unlock">
+    <p>Unlocks the currently locked channel.</p>
+</div>
+
+<h3 class="title" data-section-id="mute">/mute [user] [time] [reason]</h3>
+<div class="content" id="mute">
+    <p>Mute someone by putting a timeout.</p>
+</div>
+
+<h3 class="title" data-section-id="unmute">/unmute [user]</h3>
+<div class="content" id="unmute">
+    <p>Unmute someone by removing a timeout.</p>
+</div>
+
+<h3 class="title" data-section-id="clear">/clear [amount]</h3>
+<div class="content" id="clear">
+    <p>Clear the latest messages! (max. amount = 25)</p>
+</div>
+
+<p>⠀</p>
+<h2>ADVANCED MODERATION</h2>
+
+<h3 class="title" data-section-id="event">!event</h3>
+<div class="content" id="event">
+    <p>Use this in @Hush's DM to set up an event with the event system.</p>
+</div>
+
+<h3 class="title" data-section-id="ticket">/setup ticket [custom_message]</h3>
+<div class="content" id="ticket">
+    <p>Setup a ticket system, and choose a custom message in the main channel.</p>
+</div>
+
+<h3 class="title" data-section-id="verification">/setup verification [color]</h3>
+<div class="content" id="verification">
+    <p>Setup a verification system, and choose the "verification role" color.</p>
+</div>
+
+<h3 class="title" data-section-id="embed">/embed [multiple options]</h3>
+<div class="content" id="embed">
+    <p>Setup an embedded message with multiple options.</p>
+</div>
+
+<h3 class="title" data-section-id="reactrole">/reactrole [role]</h3>
+<div class="content" id="reactrole">
+    <p>Setup a react role with the selected role. Users can click the button to obtain it.</p>
+</div>
+
+<h3 class="title" data-section-id="warn">/warn [user]</h3>
+<div class="content" id="warn">
+    <p>This command gives out @Warning 1 to the selected user, and after the second warning @Warning 2. After the 3rd use, the user is kicked!</p>
+</div>
+
+<p>⠀</p>
+<h2>NOTES</h2>
+
+<h3 class="title" data-section-id="note-create">/note create [user] [note]</h3>
+<div class="content" id="note-create">
+    <p>Save a note for the chosen user, and retrieve it later with another command.</p>
+</div>
+
+<h3 class="title" data-section-id="note-get">/note get [user]</h3>
+<div class="content" id="note-get">
+    <p>Get all the notes from the chosen user, including note IDs.</p>
+</div>
+
+<h3 class="title" data-section-id="note-delete">/note delete [user] [note_id]</h3>
+<div class="content" id="note-delete">
+    <p>Delete one note of the user, by ID (get ID from /note get).</p>
+</div>
+
+<p>⠀</p>
+<h2>INTERACTION (Anime GIFS)</h2>
+
+<h3 class="title" data-section-id="attack">/attack [person]</h3>
+<div class="content" id="attack">
+    <p>Attack the selected user.</p>
+</div>
+
+<p>⠀</p>
+<h2>IMAGES</h2>
+
+<h3 class="title" data-section-id="avatar">/avatar [user]</h3>
+<div class="content" id="avatar">
+    <p>Get the avatar of a user, sent as an image.</p>
+</div>
+
+<h3 class="title" data-section-id="banner">/banner [user]</h3>
+<div class="content" id="banner">
+    <p>Get the banner of a user, sent as an image.</p>
+</div>
+
+<h3 class="title" data-section-id="server-avatar">/server_avatar</h3>
+<div class="content" id="server-avatar">
+    <p>Get the avatar of the server where you use the command, sent as an image.</p>
+</div>
+
+<p>⠀</p>
+<h2>MUSIC</h2>
+
+<h3 class="title" data-section-id="play">/play [song]</h3>
+<div class="content" id="play">
+    <p>Play audio in VC, using Spotify/YouTube links, or a search as input.</p>
+</div>
+
+<h3 class="title" data-section-id="skip">/skip</h3>
+<div class="content" id="skip">
+    <p>Tries to skip to the next song in queue.</p>
+</div>
+
+<h3 class="title" data-section-id="volume">/volume [volume]</h3>
+<div class="content" id="volume">
+    <p>Set the volume for currently playing audio (between 0-100).</p>
+</div>
+
+<h3 class="title" data-section-id="queue">/queue</h3>
+<div class="content" id="queue">
+    <p>Show the music queue of the server where you use the command.</p>
+</div>
+
+<h3 class="title" data-section-id="pause">/pause</h3>
+<div class="content" id="pause">
+    <p>Pause currently playing audio.</p>
+</div>
+
+<h3 class="title" data-section-id="resume">/resume</h3>
+<div class="content" id="resume">
+    <p>Resume paused audio.</p>
+</div>
+
+<h3 class="title" data-section-id="stop">/stop</h3>
+<div class="content" id="stop">
+    <p>Clears the queue, and make @Hush leave the VC.</p>
+</div>
+
+<h3 class="title" data-section-id="similar">/similar [spotify_url] [amount] (IN V5.0)</h3>
+<div class="content" id="similar">
+    <p>Returns similar songs to the input, using Spotify recommendations.</p>
+</div>
+
+<p>⠀</p>
+<h2>LEVELING (Off by default after V5.0)</h2>
+
+<h3 class="title" data-section-id="rank">/rank [user, optional]</h3>
+<div class="content" id="rank">
+    <p>Get the rank of a user, sent in a little graph.</p>
+</div>
+
+<h3 class="title" data-section-id="leaderboard">/leaderboard</h3>
+<div class="content" id="leaderboard">
+    <p>Shows the level leaderboard of the server where you use the command.</p>
+</div>
+
+<h3 class="title" data-section-id="server-leaderboard">/server_leaderboard</h3>
+<div class="content" id="server-leaderboard">
+    <p>Shows the server leaderboard of @Hush's servers, based on member count.</p>
+</div>
+
+<h3 class="title" data-section-id="leveling">leveling</h3>
+<div class="content" id="leveling">
+    <p>You'll be given 15-25 XP per message (max. 1x per minute to avoid spamming).</p>
+</div>
+
+<p>⠀</p>
+<h2>OTHER COMMANDS</h2>
+
+<h3 class="title" data-section-id="bot-info">/bot info</h3>
+<div class="content" id="bot-info">
+    <p>Show some unimportant (but fun) bot information.</p>
+</div>
+
+<h3 class="title" data-section-id="bot-ping">/bot ping</h3>
+<div class="content" id="bot-ping">
+    <p>Shows the bot ping at that moment.</p>
+</div>
+
+<h3 class="title" data-section-id="userinfo">/userinfo</h3>
+<div class="content" id="userinfo">
+    <p>Show some information about the selected user.</p>
+</div>
+
+<h3 class="title" data-section-id="weather">/weather [location]</h3>
+<div class="content" id="weather">
+    <p>Retrieve weather information from the chosen location.</p>
+</div>
+
+<h3 class="title" data-section-id="bug">/bug</h3>
+<div class="content" id="bug">
+    <p>Report a bug you found to the Service Server.</p>
+</div>
+
+<h3 class="title" data-section-id="changelog">/changelog [version, optional]</h3>
+<div class="content" id="changelog">
+    <p>Shows the most recent update (cluster), or choose a version.</p>
+</div>
+
+<h3 class="title" data-section-id="credits">/credits</h3>
+<div class="content" id="credits">
+    <p>This shows the credits to all who have helped.</p>
+</div>
+
+<h3 class="title" data-section-id="help">/help</h3>
+<div class="content" id="help">
+    <p>The help command is what most people use.</p>
+</div>
+
+<h3 class="title" data-section-id="invite-link">/invite link</h3>
+<div class="content" id="invite-link">
+    <p>Sends the link to the Discord Server for Hush Works.</p>
+</div>
+
+<h3 class="title" data-section-id="suggest">/suggest</h3>
+<div class="content" id="suggest">
+    <p>Suggest a feature for the bot!</p>
+</div>
+
+<h3 class="title" data-section-id="prefix-show">/prefix show</h3>
+<div class="content" id="prefix-show">
+    <p>Show your server's prefix.</p>
+</div>
+
+<h3 class="title" data-section-id="prefix-change">/prefix change [prefix]</h3>
+<div class="content" id="prefix-change">
+    <p>Change your server's prefix (manage server permissions needed!).</p>
+</div>
+
+<h3 class="title" data-section-id="quote">reply on message with: @Hush quote this</h3>
+<div class="content" id="quote">
+    <p>This will return an image containing the user's quote, name, and profile image.</p>
+</div>
+
+<p>⠀</p>
+<h2>TRANSLATION</h2>
+
+<h3 class="title" data-section-id="translator">/translator [codec] [input_text]</h3>
+<div class="content" id="translator">
+    <p>Use this command to translate text.</p>
+</div>
+
+<h3 class="title" data-section-id="translator-languages">/translator_languages</h3>
+<div class="content" id="translator-languages">
+    <p>Get a list of supported languages for translation (language + codec).</p>
+</div>
+
+<h3 class="title" data-section-id="translate">reply on message with: translate to &lt;codec&gt;</h3>
+<div class="content" id="translate">
+    <p>This will return a message with the translation of the user's message.</p>
+</div>
+
+        </div>
+        <p>⠀</p>
+        <p>⠀</p>
+        <p style="text-align: center; font-size: 14px;">This section has been updated at October 2, 2024</p>
+        <p style="text-align: center; font-size: 12px;">Report mistakes in the <a style="color: #ad6edf" href="https://discord.gg/28xUcPUdNr" target="_blank">Hush Support Server</a></p>
+    </div>
+    <footer class="footer">
+        <p id="copyright"></p>
+    </footer>
+    <script src="assets/js/toggle.js"></script>
+    <script>
+        window.addEventListener('load', onLoad);
+
+        function onLoad () {
+          const copyrightEl = document.getElementById('copyright');
+
+          if (copyrightEl) {
+            const currentYear = new Date().getFullYear();
+            const copyrightText = `&copy; ${currentYear} Code Hush | All rights reserved `;
+
+            copyrightEl.innerHTML = copyrightText;
+          }
+        }
+    </script>
+</body>
+</html>
